@@ -416,6 +416,167 @@ img {
 		display: none;
 	}
 /*========================media=============================================================================================================*/
+@media only screen and (min-device-width: 732px) and (max-device-width: 830px) {
+	.navbar-nav {
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+
+	}
+	.inet-btn {
+		display: none;	
+	}
+	.header-logo-block {
+		flex-wrap: nowrap;
+    	flex-direction: column;
+	}
+	.top-logo {
+		max-width: 33%;
+		margin-bottom: 30px;
+	}
+	.top-search {
+		max-width: 70%;
+		margin-bottom: 30px;
+	}
+	.top-contact {
+		max-width: 60%;
+		margin-bottom: 30px;
+	}
+	.my-second-ul-menu {
+    	background: #0E101F;
+    	
+	}
+	.uppermost-top-menu {
+	    padding: 10px 0;
+	}
+		.slider-box {
+		display: none;	
+	}
+	.category-header, .goods-header {
+		text-align: center;
+	}
+	.mobile-hide {
+		display: none;
+	}
+	.desctop-hide {
+		display: block;
+	}
+	.card-img p {
+		font-size: 13px;
+		color: black;
+	}
+	.mobile-goods-card {
+		display: flex;
+   		align-items: center;
+    	flex-direction: column;
+    	justify-content: center;
+        margin-bottom: 50px;
+    	padding-top: 30px;
+	}
+	.goods-desc {
+	    width: 60%;
+	}
+	.my-form-row h2 {
+		font-size: 22px;
+	}
+	.footer-row {
+    	flex-wrap: wrap;
+    	justify-content: space-between;
+	}
+	.footer-form, .footer-menu-1, .footer-menu-2 {
+		max-width: 30%;
+		flex: 0 0 100%;
+		margin-bottom: 70px;
+	}
+	.footer-menu-pickup, .social-and-pay {
+		max-width: 30%;
+		flex: 0 0 100%;
+	}
+}
+@media (width: 736px) { .footer-container, .header-container {max-width: 100%;} }
+@media only screen and (min-device-width: 545px) and (max-device-width: 731px) {
+	.registration-div {
+    	margin: 0;
+	}
+	.navbar-nav {
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+		font-size: 16px;
+	}
+	.inet-btn {
+		display: none;	
+	}
+	.top-logo {
+		width: 237px;
+		margin-bottom: 40px;
+	}
+	.top-search, .top-contact {
+		margin-bottom: 40px;
+	}
+	.my-form-control {
+   		width: 75%;
+	}
+	.header-logo-block {
+    	flex-direction: column;
+    	justify-content: center;
+	}
+	.my-second-ul-menu {
+    		background: #0E101F;
+	}
+	.slider-box {
+		display: none;	
+	}
+	.uppermost-top-menu {
+	    padding: 10px 0;
+	}
+	.category-header, .goods-header {
+		text-align: center;
+	}
+	.card-img p {
+		color: black;
+	}
+	.mobile-hide {
+		display: none;
+	}
+	.desctop-hide {
+		display: block;
+	    padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.mobile-goods-card {
+		display: flex;
+   		align-items: center;
+    	flex-direction: column;
+    	justify-content: center;
+        margin-bottom: 50px;
+    	padding-top: 30px;
+	}
+	.goods-desc {
+	    width: 60%;
+	}
+	.my-form-row h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.form-btm-sale {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.footer-form-bg {
+    	padding: 60px 20px;
+	}
+	.footer-form {
+		margin-bottom: 50px;
+	}
+}
 
 @media (max-width: 544px){ 
 	.my-flex-direct {
