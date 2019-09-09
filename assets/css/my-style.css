@@ -258,7 +258,7 @@ img {
 	position: absolute;
 	opacity: 0;
   	visibility: hidden;
-  	transition: all 0.6s ease;
+  	transition: all 0.3s ease;
 }
 .goods-card:hover .hide-goods-card {
 	display: -webkit-flex;
@@ -416,7 +416,7 @@ img {
 		display: none;
 	}
 /*========================media=============================================================================================================*/
-@media only screen and (min-device-width: 732px) and (max-device-width: 830px) {
+@media only screen and (min-width: 732px) and (max-width: 830px) {
 	.navbar-nav {
 		-webkit-flex-direction: row;
 		-moz-flex-direction: row;
@@ -496,7 +496,7 @@ img {
 	}
 }
 @media (width: 736px) { .footer-container, .header-container {max-width: 100%;} }
-@media only screen and (min-device-width: 545px) and (max-device-width: 731px) {
+@media only screen and (min-width: 545px) and (max-width: 731px) {
 	.registration-div {
     	margin: 0;
 	}
